@@ -77,7 +77,7 @@ namespace FolderSyncer
          
                         }
                         
-                        var fileDataFound = this.FilesData.FirstOrDefault(x => x.LocationOldFolder == fileDataPiece.LocationOldFolder, null);
+                        var fileDataFound = this.FilesData.FirstOrDefault(x => x!.LocationOldFolder == fileDataPiece.LocationOldFolder, null);
 
                         if (fileDataFound != null) this.FilesData.Remove(fileDataFound);
 
