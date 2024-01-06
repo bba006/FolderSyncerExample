@@ -1,0 +1,1 @@
+To run program from terminal use `dotnet run --copy-from-path='path' --copy-to-path='path' --sync-interval-ms=5000 --log-file-path='path'`
